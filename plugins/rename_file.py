@@ -70,9 +70,9 @@ async def rename_doc(bot, update):
                return
         except UserNotParticipant:
             await update.reply_text(
-                text="**Due To The Huge Traffic Only Group Members Can Use This Bot Means You Need To Join The Below Mentioned Group Before Using Me! **",
+                text="**Hey✨ Due To The Huge Traffic Only Group Members Can Use This Bot Means You Need To Join The Below Mentioned Group Before Using Me! **",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text="Join My Anime Group", url=f"https://t.me/{update_channel}")]
+                    [ InlineKeyboardButton(text="❣ Join My Anime Group ❣", url=f"https://t.me/{update_channel}")]
               ])
             )
             return
