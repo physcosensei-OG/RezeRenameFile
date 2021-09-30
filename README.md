@@ -1,30 +1,24 @@
-# - File Rename Bot
+![Ai HayaSaka](https://picfiles.alphacoders.com/350/thumb-1920-350806.png)
 
 <p align="center">
-  <a href="https://github.com/No-OnE-Kn0wS-Me/FileRenameBot/stargazers">
-    <img src="https://img.shields.io/github/stars/No-OnE-Kn0wS-Me/FileRenameBot?style=social">
+  <a href="https://github.com/Vedant-VN/Hayasaka/stargazers">
+    <img src="https://img.shields.io/github/stars/Vedant-VN/Hayasaka?style=social">
 
   </a>
   
-  <a href="https://github.com/No-OnE-Kn0wS-Me/FileRenameBot/fork">
-    <img src="https://img.shields.io/github/forks/No-OnE-Kn0wS-Me/FileRenameBot?label=Fork&style=social">
+  <a href="https://github.com/Vedant-VN/Hayasaka/fork">
+    <img src="https://img.shields.io/github/forks/Vedant-VN/Hayasaka?label=Fork&style=social">
 
   </a>  
 </p>
 
-->**An Multi purpose Bot Which Can :-**
-* ✅Rename Telegram Files Into Any Formats <pre>(Like Renaming Video Files Into Audio File Or Images Into Stickers, Can Be Rename Any File To Most Of The Available Extensions 🤔 I gus) </pre>
-* ✅Convert Files into Video
-* ✅Supports Custom Caption/ Permanent Thumbnail
-* ✅Force Subscribe To Targeted Chat
+# AI Hayasaka Sigma Bot
 
-->**Demo Bots**
-
-➡️[BOT 1](https://t.me/rename1robot)    
-➡️[BOT 2](https://t.me/rename2robot)    
-➡️[BOT 3](https://t.me/rename3robot)    
-➡️[BOT 4](https://t.me/rename4robot)   
-➡️[BOT 5](https://t.me/rename5robot)
+**This Is a Multi purpose Bot Which Can:-**
+* Rename Telegram Files Into Any Formats <pre>(Like Renaming Video Files Into Audio File or Few Other Extensions) ✅ </pre>
+* Convert Files into Video ✅
+* Supports Custom Caption/ Permanent Thumbnail ✅
+* Force Subscribe To Targeted Chat ✅
 
 
 # Deploy straight to Heroku!
@@ -43,3 +37,5 @@
 
 * [SpEcHlDe](https://telegram.dog/SpEcHlDe) For [AnydlBot](https://github.com/SpEcHiDe/AnyDLBot)
 * [Dan](https://github.com/delivrance) For This Mind Blowing [Library](https://github.com/pyrogram/pyrogram)
+* [No One Knows Him](https://github.com/No-OnE-Kn0wS-Me) Owner Of The Original Repo Used In Creating This Bot [Original Repo](https://github.com/No-OnE-Kn0wS-Me/FileRenameBot)
+
