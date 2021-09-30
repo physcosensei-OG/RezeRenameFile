@@ -1,7 +1,7 @@
 class Translation(object):
-    START_TEXT = """ <b>OwO Hey There {}, \nI'm Ai Hayasaka VN's Waifu & A Bot, I can Rename+Convert Multiple Files At Once With Permanent Thumbnail And Custom Caption support Yay!😁</b> \n
+    START_TEXT = """ <b>OwO Hey There {}, \nI'm Ai Hayasaka VN's Waifu & A Bot, I can Rename+Convert Multiple Files At Once With Permanent Thumbnail And Custom Caption support Yay! 😁</b> \n
 
-<b>*I am Well Maintained By*: @Vedant_vn 👀✌ </b> \n 
+<b>I'm Well Maintained By: @Vedant_vn 👀✌</b> \n 
 """
 
     BANNED_USER_TEXT = "Lol My Owner Has Banned You From Using Me. That Means You Can't Run Me Now! \n \n Contact : @NarutoRobot_Support To Know More..." 
@@ -16,7 +16,7 @@ class Translation(object):
     CUSTOM_CAPTION_UL_FILE = " "
     NO_THUMB_FOUND = "Aur Bhai Thumbnail Kab Daaloge?"
     IFLONG_FILE_NAME = """Oi Pagal...Decrease The Number Of Letters,Chutiya Salla 🙂"""
-    ABOUT_ME = """<b>UwU \n Hey I'm Ai Hayasaka 🙈 Just Another Telegram File Renamer Bot Which Can Rename Telegram Files. \n Well,I Support Permanent Thumbnail Feature.\n \n i can also convert files into videos \n Still Got Any Issues With Me HUH?🤨 Contact @NarutoRobot_Support & Tag @Vedant_Vn there For Your Answers 🙂 </b>"""
+    ABOUT_ME = """<b>UwU \nHey I'm Ai Hayasaka 🙈 Just Another Telegram File Renamer Bot Which Can Rename Telegram Files. \nWell,I Support Permanent Thumbnail Feature.\n \ni can also convert files into videos \nStill Got Any Issues With Me HUH?🤨 Contact @NarutoRobot_Support & Tag @Vedant_Vn there For Your Answers 🙂 </b>"""
     HELP_USER = """Checkout The Available Commands Here \n\nDo Join @AnimeSigma If You Found Me Useful Darling❤️"""
     RENAME_HELP = """Here are The Available Commands In Rename \n\n\n▪️ <code>/rename</code> : Reply To An File/video With <code>/rename Filename.extension</code> For Renaming"""
     C2V_HELP = """Here Are The Available Commands In File To Video \n\n\n ▪️<code>/c2v</code> : Reply To An File With /c2v To Convert It Into Video"""
