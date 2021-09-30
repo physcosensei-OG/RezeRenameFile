@@ -43,13 +43,13 @@ async def help_user(bot, update):
         try:
             user = await bot.get_chat_member(update_channel, update.chat.id)
             if user.status == "kicked":
-               await update.reply_text(" Sorry, You're Banned")
+               await update.reply_text(" Sorry,Darling You're Banned Lol")
                return
         except UserNotParticipant:
             await update.reply_text(
-                text="**Due To The Huge Traffic Only Channel Members Can Use This Bot Means You Need To Join The Below Mentioned Channel Before Using Me! **",
+                text="**Due To The Huge Traffic Only Group Members Can Use This Bot Means You Need To Join The Below Mentioned Group Before Using Me! **",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text="Join My Updates Channel", url=f"https://t.me/{update_channel}")]
+                    [ InlineKeyboardButton(text="Join My Anime Group", url=f"https://t.me/{update_channel}")]
               ])
             )
             return
@@ -60,15 +60,15 @@ async def help_user(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('📝Rename', callback_data = "rnme"),
-                    InlineKeyboardButton('📂File To Video', callback_data = "f2v")
+                    InlineKeyboardButton('Rename📝', callback_data = "rnme"),
+                    InlineKeyboardButton('File To Video📂', callback_data = "f2v")
                 ],
                 [
-                    InlineKeyboardButton('🎞️Custom Thumbnail', callback_data = "cthumb"),
-                    InlineKeyboardButton('📑Custom Caption', callback_data = "ccaption")
+                    InlineKeyboardButton('Custom Thumbnail🎞️', callback_data = "cthumb"),
+                    InlineKeyboardButton('Custom Caption📑', callback_data = "ccaption")
                 ],
                 [
-                    InlineKeyboardButton('💬About', callback_data = "about")
+                    InlineKeyboardButton('⚜ About', callback_data = "about")
                 ]
             ]
         )
@@ -77,20 +77,20 @@ async def help_user(bot, update):
 @Mai_bOTs.on_message(pyrogram.filters.command(["start"]))
 async def start_me(bot, update):
     if update.from_user.id in Config.BANNED_USERS:
-        await update.reply_text("You are Banned")
+        await update.reply_text("You are Banned lol")
         return
     update_channel = Config.UPDATE_CHANNEL
     if update_channel:
         try:
             user = await bot.get_chat_member(update_channel, update.chat.id)
             if user.status == "kicked":
-               await update.reply_text(" Sorry,You've Been Flooding Me So My Owner Removed You From Using Me If You Think It's An Error Contact : @Faris_TG")
+               await update.reply_text(" Sorry,You've Been Flooding Me So My Owner VN Sama Removed You From Using Me, If You Think It's An Error Contact : @NarutoRobot_Support")
                return
         except UserNotParticipant:
             await update.reply_text(
-                text="**Due To The Huge Traffic Only Channel Members Can Use This Bot Means You Need To Join The Below Mentioned Channel Before Using Me! **",
+                text="**Due To The Huge Traffic Only Group Members Can Use This Bot Means You Need To Join The Below Mentioned Group Before Using Me! **",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text="Join My Updates Channel", url=f"https://t.me/{update_channel}")]
+                    [ InlineKeyboardButton(text="Join My Anime Group", url=f"https://t.me/{update_channel}")]
               ])
             )
             return
@@ -99,15 +99,18 @@ async def start_me(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                        InlineKeyboardButton("Help", callback_data = "ghelp")
+                        InlineKeyboardButton('➤ Anime Channel', url='https://t.me/AnimeSigma')
                 ],
                 [
-                    InlineKeyboardButton('Support Channel', url='https://t.me/Mai_bOTs'),
-                    InlineKeyboardButton('Feedback', url='https://t.me/No_OnE_Kn0wS_Me')
+                    InlineKeyboardButton('My Support', url='https://t.me/NarutoRobot_Support'),
+                    InlineKeyboardButton("Help", callback_data = "ghelp")
                 ],
                 [
-                    InlineKeyboardButton('Other Bots', url='https://t.me/Mai_bOTs/17'),
-                    InlineKeyboardButton('Source', url='https://github.com/No-OnE-Kn0wS-Me/FileRenameBot')
+                    InlineKeyboardButton('⚡ Network ⚡', url='https://t.me/Animesigma_Network'),
+                    InlineKeyboardButton('Thumbnails 👀', url='https://www.google.com/search?q=anime+wallpapers')
+                ],
+                [
+                    InlineKeyboardButton('🔰 Sigma Format (Admins Only)', url='https://t.me/c/1293720598/67682'),
                 ]
             ]
         ),
@@ -126,7 +129,7 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton('Back', callback_data = "ghelp"),
-                    InlineKeyboardButton("🔒 Close", callback_data = "close")
+                    InlineKeyboardButton("Close 🔒", callback_data = "close")
                 ]
             ]
         )
@@ -139,7 +142,7 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton('Back', callback_data = "ghelp"),
-                    InlineKeyboardButton("🔒 Close", callback_data = "close")
+                    InlineKeyboardButton("Close 🔒 ", callback_data = "close")
                 ]
             ]
         )
@@ -156,7 +159,7 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton('Back', callback_data = "ghelp"),
-                    InlineKeyboardButton('🔒 Close', callback_data = "close")
+                    InlineKeyboardButton('Close 🔒 ', callback_data = "close")
                 ]
             ]
         )
@@ -169,7 +172,7 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton('Back', callback_data = "ghelp"),
-                    InlineKeyboardButton("🔒 Close", callback_data = "close")
+                    InlineKeyboardButton("Close 🔒", callback_data = "close")
                 ]
             ]
         )
@@ -178,7 +181,7 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
         await query.message.delete()
         try:
             await query.message.reply_text(
-                text = "<b>Process Cancelled</b>"
+                text = "<b>Okay Lol Process Cancelled</b>"
      )
         except:
             pass 
@@ -189,15 +192,15 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('📝Rename', callback_data = "rnme"),
-                    InlineKeyboardButton('📂File To Video', callback_data = "f2v")
+                    InlineKeyboardButton('Rename📝', callback_data = "rnme"),
+                    InlineKeyboardButton('File To Video📂', callback_data = "f2v")
                 ],
                 [
-                    InlineKeyboardButton('🎞️Custom Thumbnail', callback_data = "cthumb"),
-                    InlineKeyboardButton('📑Custom Caption', callback_data = "ccaption")
+                    InlineKeyboardButton('Custom Thumbnail🎞️', callback_data = "cthumb"),
+                    InlineKeyboardButton('Custom Caption📑', callback_data = "ccaption")
                 ],
                 [
-                    InlineKeyboardButton('💬About', callback_data = "about")
+                    InlineKeyboardButton('⚜ About', callback_data = "about")
                 ]
             ]
         )
@@ -208,7 +211,7 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
                 caption = await get_caption(query.from_user.id)
                 c_text = caption.caption
              except:
-                c_text = "Sorry but you haven't added any caption yet please set your caption through /scaption command" 
+                c_text = "You haven't added any caption yet Noob, set your caption through /scaption command" 
              await query.message.edit(
                   text=f"<b>Your Custom Caption:</b> \n\n{c_text} ",
                   parse_mode="html", 
@@ -217,7 +220,7 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton('Back', callback_data = "ccaption"),
-                    InlineKeyboardButton("🔒 Close", callback_data = "close")
+                    InlineKeyboardButton("Close 🔒", callback_data = "close")
                 ]
             ]
         )
@@ -230,7 +233,7 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton('Back', callback_data = "ghelp"),
-                    InlineKeyboardButton("🔒 Close", callback_data = "close")
+                    InlineKeyboardButton("Close 🔒", callback_data = "close")
                 ]
             ]
         )
@@ -247,7 +250,7 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton('Back', callback_data = "ccaption"),
-                    InlineKeyboardButton("🔒 Close", callback_data = "close")
+                    InlineKeyboardButton("Close 🔒", callback_data = "close")
                 ]
             ]
         )
