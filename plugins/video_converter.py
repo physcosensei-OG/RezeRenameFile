@@ -50,7 +50,7 @@ async def convert_to_video(bot, update):
             await update.reply_text(
                 text="**Please Join My Anime Group Before Using Me..**",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text="Join My Anime Group", url=f"https://t.me/{update_channel}")]
+                    [ InlineKeyboardButton(text="❣ Join My Anime Group ❣", url=f"https://t.me/{update_channel}")]
               ])
             )
             return  
