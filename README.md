@@ -20,6 +20,10 @@
 * Supports Custom Caption/ Permanent Thumbnail ✅
 * Force Subscribe To Targeted Chat ✅
 
+# CheckOut
+
+[@AnimeSigma NetWork](https://T.me/AnimeSigma_Network)
+
 
 # Deploy straight to Heroku!
 
