@@ -43,7 +43,7 @@ async def convert_to_video(bot, update):
         try:
             user = await bot.get_chat_member(update_channel, update.chat.id)
             if user.status == "kicked":
-               await update.reply_text(" Sorry,Darling You are **B A N N E D**")
+               await update.reply_text(" Sorry,Kido You are **B A N N E D**")
                return
         except UserNotParticipant:
             #await update.reply_text(f"Join @{update_channel} To Use Me")
