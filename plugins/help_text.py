@@ -43,7 +43,7 @@ async def help_user(bot, update):
         try:
             user = await bot.get_chat_member(update_channel, update.chat.id)
             if user.status == "kicked":
-               await update.reply_text(" Sorry,Darling You're Banned Lol")
+               await update.reply_text(" Sorry,You're Banned 😳")
                return
         except UserNotParticipant:
             await update.reply_text(
@@ -84,7 +84,7 @@ async def start_me(bot, update):
         try:
             user = await bot.get_chat_member(update_channel, update.chat.id)
             if user.status == "kicked":
-               await update.reply_text(" Sorry,You've Been Flooding Me So My Owner VN Sama Removed You From Using Me, If You Think It's An Error Contact : @NarutoRobot_Support")
+               await update.reply_text(" Hey,You've Been Flooding Me So My Owner VN Sama Removed You From Using Me, If You Think It's An Error Contact : @NarutoRobot_Support")
                return
         except UserNotParticipant:
             await update.reply_text(
@@ -102,7 +102,7 @@ async def start_me(bot, update):
                         InlineKeyboardButton('➤ Anime Channel', url='https://t.me/AnimeSigma')
                 ],
                 [
-                    InlineKeyboardButton('My Support', url='https://t.me/NarutoRobot_Support'),
+                    InlineKeyboardButton('My Support 💯', url='https://t.me/NarutoRobot_Support'),
                     InlineKeyboardButton("Help", callback_data = "ghelp")
                 ],
                 [
