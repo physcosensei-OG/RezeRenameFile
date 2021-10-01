@@ -1,4 +1,4 @@
-![Ai HayaSaka](https://picfiles.alphacoders.com/350/thumb-1920-350806.png)
+![Hishiro Chizuru](https://pbs.twimg.com/media/ECc4aHRXUAACXDS.jpg:large)
 
 <p align="center">
   <a href="https://github.com/Vedant-VN/Hayasaka/stargazers">
@@ -12,7 +12,7 @@
   </a>  
 </p>
 
-# AI Hayasaka Sigma Bot
+# Chizuru Hishiro Sigma Bot
 
 **This Is a Multi purpose Bot Which Can:-**
 * Rename Telegram Files Into Any Formats <pre>(Like Renaming Video Files Into Audio File or Few Other Extensions) ✅ </pre>
