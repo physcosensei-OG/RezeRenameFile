@@ -66,7 +66,7 @@ async def rename_doc(bot, update):
         try:
             user = await bot.get_chat_member(update_channel, update.chat.id)
             if user.status == "kicked":
-               await update.reply_text(" Sorry, Darling You've Been Banned From Using Me Lol")
+               await update.reply_text(" Sorry, Man You've Been Banned From Using Me 😳")
                return
         except UserNotParticipant:
             await update.reply_text(
